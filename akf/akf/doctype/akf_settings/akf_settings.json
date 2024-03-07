@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-07 19:01:34.108849",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "overriding_detail_section",
+  "allow_override"
+ ],
+ "fields": [
+  {
+   "fieldname": "overriding_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Overriding Detail"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_override",
+   "fieldtype": "Check",
+   "label": "Allow Override"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-03-07 19:03:01.768750",
+ "modified_by": "Administrator",
+ "module": "Akf",
+ "name": "AKF Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
