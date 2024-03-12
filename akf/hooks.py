@@ -76,6 +76,7 @@ app_license = "mit"
 # before_uninstall = "akf.uninstall.before_uninstall"
 # after_uninstall = "akf.uninstall.after_uninstall"
 
+fixtures = ['Custom Field']
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
